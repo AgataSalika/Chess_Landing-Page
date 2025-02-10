@@ -529,7 +529,6 @@ header {
 }
 
 .steps__arrows {
-   ste
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1118,13 +1117,17 @@ footer {
         margin: 0 auto;
         width: 335px;
         height: 182px;
-        margin-bottom: 52px;
+        position: relative;
+        top: 52px;
+        z-index: 10;
     }
 
     .table__flex_right {
         font-size: 1.125rem;
     }
-
+    .swiper-pagination-bullet-active {
+        background-color: var(--main-font-color);
+    }
 
     .steps_one,
     .steps_three,
@@ -1139,7 +1142,7 @@ footer {
 
     .members {
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 184px;
     }
 
 

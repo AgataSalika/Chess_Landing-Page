@@ -5,8 +5,7 @@ const swiperSteps = new Swiper('.swiperSteps', {
   loop: true,
   pagination: {
     el: '.swiper-pagination-S',
-    clickable: true, 
-    dynamicBullets: true,  
+    clickable: true,   
   },
 
   slidesPerView: 1,
